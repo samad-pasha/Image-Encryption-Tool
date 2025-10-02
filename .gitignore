@@ -1,0 +1,35 @@
+# .gitignore
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+.bundle/
+dist/
+build/
+develop-eggs/
+.eggs/
+sdist/
+wheel/
+*.egg-info/
+*.egg
+
+# Security - CRITICAL: Ignore the encryption key
+*.key
+image_encryption_key.key
+
+# Ignore any encrypted or decrypted files users might create
+# It's better for users to manage their own data files.
+# You can add common extensions if you wish.
+# *.dat
+# *.enc
+# *.jpg
+# *.png
