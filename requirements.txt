@@ -1,0 +1,9 @@
+# requirements.txt
+
+Downloade the cryptography library file.
+
+Steps:
+>Open microsoft powershell
+>Type the command
+>pip install cryptography
+>Hit enter
